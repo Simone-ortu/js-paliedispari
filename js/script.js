@@ -14,12 +14,12 @@ console.log(randomNum);
 var somma = numero + randomNum;
 console.log(somma);
 
-var vincitore = pariDispari;
+var vincitore = pariDispari (numero , randomNum)
 console.log(vincitore);
 
 
 
-function pariDispari (somma){
+function pariDispari (numero , randomNum){
     if (somma % 2 == 0){
         return 'Vince pari';
     }else{
